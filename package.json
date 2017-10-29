@@ -1,0 +1,27 @@
+{
+  "name": "mytest",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "start:prod": "meteor run --production",
+    "build": "meteor build ./build/",
+    "clear": "meteor reset",
+    "meteor:update": "meteor update --all-packages"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "meteor-node-stubs": "~0.2.4",
+    "meteor-rxjs": "^0.4.8",
+    "path": "^0.12.7",
+    "rxjs": "^5.5.2",
+    "simpl-schema": "^0.3.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  },
+  "devDependencies": {
+    "@types/meteor": "^1.4.12"
+  }
+}
