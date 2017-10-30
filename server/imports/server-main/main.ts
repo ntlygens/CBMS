@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 
-import { InitCollection } from '../../both/collections/init.collection';
+import { InitCollection } from '../../../both/collections/init.collection';
 import { WebApp } from 'meteor/webapp';
 import * as cors from 'cors/lib/index.js';
 import * as bodyParser from 'body-parser/index.js';
